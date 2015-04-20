@@ -1,0 +1,64 @@
+h2 {
+    font-family: "Times New Roman", Times, sans-serif;
+}
+
+img.headLogo {
+    position: fixed;
+    top: -5px;
+    left: -5px;
+}
+
+img.headRedBar {
+    position: fixed;
+    top: -5;
+    left: -685;
+}
+
+ul {
+    position: absolute;
+    top: 90;
+    left: 150;
+    list-style-type: none;
+    margin-left: 10px;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+    padding-right: 70px;
+    padding-left: 70px;
+    background-color: #B20000;
+}
+
+li:hover {
+    background-color: #005500;
+}
+
+a {
+    color: #ffffff;
+}
+
+h2 {
+    position:fixed;
+    margin-left: 4px;
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+img.topLogo {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: -5;
+    left: -5;
+    z-index: 100;
+}
+
+img.navBar {
+    width: 600;
+    height: 200;
+    position: fixed;
+    top: -5;
+    z-index: 90;
+}
