@@ -82,3 +82,34 @@ function sleep(milliseconds) {
     }
   }
 }
+
+//Hide {id}
+function hideElem(id) {
+    document.getElementById(id).style.display="none";
+}
+
+function showElem(id, display) {
+    if (display === '') {
+        display = "inline";
+    }
+    document.getElementById(id).style.display=display;
+}
+
+
+
+
+
+
+
+
+
+
+function giveCopyright() {
+    document.write('The GMFD Code used in the website is free to redistribute and is licensed under the <a href="https://www.gnu.org/licenses/gpl-2.0.html">GNU GPL 2.0</a>');
+}
+
+function giveFunctions() {
+    document.write('jscall(); cscall(); redirector(); downloader(); dodownload(); embedurl(); elementangle(); impHead(); sleep(); hideElem(); showElem();')
+}
+
+
